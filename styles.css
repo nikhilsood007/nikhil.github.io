@@ -1,42 +1,83 @@
+/* Import Inter font (already linked in HTML) */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f7fa;
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f6f8;
     margin: 0;
     padding: 0;
     color: #333;
 }
 
-header {
-    background-color: #003366;
-    color: white;
+.container {
+    max-width: 900px;
+    margin: 0 auto;
     padding: 20px;
+}
+
+header.header {
+    background-color: #0b3d91;
+    color: white;
+    padding: 40px 20px;
     text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
     margin: 0;
-    font-size: 2em;
+    font-size: 2.5rem;
 }
 
-section {
-    margin: 30px auto;
-    max-width: 800px;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
 }
 
-section h2 {
-    color: #003366;
+.card {
+    background-color: white;
+    padding: 25px;
+    margin: 30px 0;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
-footer {
-    text-align: center;
-    background-color: #003366;
+.card h2 {
+    color: #0b3d91;
+    margin-top: 0;
+}
+
+.project-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.project-list li {
+    margin-bottom: 10px;
+}
+
+.project-list a {
+    text-decoration: none;
+    color: #0b3d91;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+.project-list a:hover {
+    color: #05306d;
+    text-decoration: underline;
+}
+
+footer.footer {
+    background-color: #0b3d91;
     color: white;
-    padding: 15px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #cce4ff;
 }
