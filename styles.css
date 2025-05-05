@@ -74,10 +74,12 @@ footer.footer {
 }
 
 footer a {
-    color: #ffffff;
-    text-decoration: underline;
+    color: #ffffff; /* Make links white */
+    text-decoration: none;
+    font-weight: 500;
 }
 
 footer a:hover {
-    color: #cce4ff;
+    color: #cce4ff; /* Lighter blue on hover */
+    text-decoration: underline;
 }
