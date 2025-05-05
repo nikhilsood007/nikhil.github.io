@@ -66,20 +66,22 @@ header p {
 }
 
 footer.footer {
-    background-color: #0b3d91;
-    color: white;
+    background-color: #0b3d91;  /* Blue background */
+    color: white;  /* White text */
     text-align: center;
     padding: 20px;
     margin-top: 40px;
+    border-radius: 10px;  /* Rounded corners for a cleaner look */
 }
 
 footer a {
-    color: #ffffff; /* Make links white */
+    color: #ffffff;  /* White links */
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 600;
+    transition: color 0.3s ease;  /* Smooth hover effect */
 }
 
 footer a:hover {
-    color: #cce4ff; /* Lighter blue on hover */
-    text-decoration: underline;
+    color: #cce4ff;  /* Lighter blue on hover */
+    text-decoration: underline;  /* Underline on hover for better interactivity */
 }
